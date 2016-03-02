@@ -1,16 +1,12 @@
 package matoski.com.fyberdemooffers;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ListView;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -19,6 +15,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import matoski.com.fyberdemooffers.adapters.OfferItemAdapter;
 import matoski.com.fyberdemooffers.pojo.OfferItem;
@@ -30,91 +27,51 @@ import matoski.com.fyberdemooffers.tools.MyRequestQueue;
 public class ListOffersActivity extends AppCompatActivity {
 
     final public static String LOG_TAG = "ListOffersActivity";
-    private FloatingActionButton fabReload;
+
     private ApiResponse offers = null;
     private OfferParameters parameters = new OfferParameters();
-    private OfferItemAdapter adapter;
-    final private AdapterView.OnItemClickListener listItemOfferClick = new AdapterView.OnItemClickListener() {
-        @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            OfferItem item = adapter.getItem(position);
-
-            if (!(item.getLink() == null)) {
-                String url = item.getLink();
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
-            }
-
-
-        }
-    };
-    private ListView listViewOffers;
     private View rootView = null;
-    final private View.OnClickListener listenerReload = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            loadOfferData();
-        }
-    };
+    private RecyclerView mRecyclerView;
+    private OfferItemAdapter adapter;
 
     private void updateAdapter() {
 
-        adapter.clear();
-
         if (offers == null) {
-
-            Snackbar snackbar = Snackbar
-                    .make(rootView, R.string.loading_offers_no, Snackbar.LENGTH_SHORT);
-            snackbar.show();
-
             return;
         }
 
-        final ArrayList<OfferItem> offerItemArrayList = new ArrayList<>();
+        final List<OfferItem> offerItemList = new ArrayList<>();
+
         for (SingleOffer offer : offers.offers) {
-            adapter.add(OfferItem.from(offer));
+            offerItemList.add(OfferItem.from(offer));
         }
 
-        adapter.addAll(offerItemArrayList);
+        adapter = new OfferItemAdapter(ListOffersActivity.this, offerItemList);
+        mRecyclerView.setAdapter(adapter);
 
-        if (adapter.getCount() == 0) {
-            Snackbar snackbar = Snackbar
-                    .make(rootView, R.string.loading_offers_no, Snackbar.LENGTH_SHORT);
-            snackbar.show();
-        }
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_offers);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        rootView = findViewById(android.R.id.content);
-        adapter = new OfferItemAdapter(this, new ArrayList<OfferItem>());
-        listViewOffers = (ListView) findViewById(R.id.listview_offers);
-        listViewOffers.setNestedScrollingEnabled(true);
-        listViewOffers.setAdapter(adapter);
-        listViewOffers.setOnItemClickListener(listItemOfferClick);
 
-        fabReload = (FloatingActionButton) findViewById(R.id.fab_refresh);
-        fabReload.setOnClickListener(listenerReload);
+        final MyApplication app = (MyApplication) getApplicationContext();
+
+        setContentView(R.layout.activity_list_offers);
+        rootView = findViewById(android.R.id.content);
 
         parameters.appId = Integer.valueOf(getIntent().getStringExtra("appId"));
         parameters.uid = getIntent().getStringExtra("uid");
         parameters.apiKey = getIntent().getStringExtra("apiKey");
-
-        final MyApplication app = (MyApplication) getApplicationContext();
-
         parameters.googleAdId = app.googleAdId;
         parameters.googleAdIdLimitedTrackingEnabled = app.googleAdIdLimitedTrackingEnabled;
-
         if (getIntent().hasExtra("pub0")) {
             parameters.pub.add(getIntent().getStringExtra("pub0"));
         }
 
-        updateAdapter();
+        mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
         loadOfferData();
 
     }
