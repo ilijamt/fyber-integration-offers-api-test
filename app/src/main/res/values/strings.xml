@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FyberDemoOffers</string>
+    <string name="app_id">AppId</string>
+    <string name="app_uid">UID</string>
+    <string name="app_apiKey">ApiKey</string>
+    <string name="app_pub0">pub0</string>
+    <string name="button_load">Load Offers</string>
+    <string name="title_activity_list_offers">Offers from Fyber</string>
+    <string name="list_no_offers">No offers</string>
+    <string name="loading_offers">Loading offers, please wait ....</string>
+    <string name="loading_offers_error">Error loading offers</string>
+    <string name="loading_offers_no">No offers to show</string>
+</resources>

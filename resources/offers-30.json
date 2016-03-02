@@ -1,0 +1,859 @@
+{
+  "code": "OK",
+  "message": "OK",
+  "count": 30,
+  "pages": 4,
+  "information": {
+    "app_name": "VC Backend Test",
+    "appid": 2070,
+    "virtual_currency": "VCS Coins",
+    "virtual_currency_sale_enabled": false,
+    "country": "DE",
+    "language": "DE",
+    "support_url": "http://offer.fyber.com/mobile/support?appid=2070&client=api&uid=spiderman"
+  },
+  "offers": [
+    {
+      "title": "Spiele jetzt!",
+      "offer_id": 859115,
+      "teaser": "Du musst deine Handynummer angeben und PIN code bestaetigen.",
+      "required_actions": "Du musst deine Handynummer angeben und PIN code bestaetigen.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=859115&os_version=4.1&ad_format=offer&sig=962f3c6ce5d94636c726187a3982ee1c48e98487",
+      "offer_types": [
+        {
+          "offer_type_id": 100,
+          "readable": "Handy"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 895,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn2.sponsorpay.com/assets/61753/cut_the_rope_square_60.png",
+        "hires": "http://cdn2.sponsorpay.com/assets/61753/cut_the_rope_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Survey Sampling - Umfrage",
+      "offer_id": 160900,
+      "teaser": "Registriere dich und nimm gewissenhaft an der Umfrage teil",
+      "required_actions": "Registriere dich und nimm gewissenhaft an der Umfrage teil",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=160900&os_version=4.1&ad_format=offer&sig=7f4784c0195aa8ef833b64bacd3dc5e41ba1dad1",
+      "offer_types": [
+        {
+          "offer_type_id": 110,
+          "readable": "Umfragen"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 43,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn4.sponsorpay.com/assets/321/Sampling_International_square_60.png",
+        "hires": "http://cdn4.sponsorpay.com/assets/321/Sampling_International_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "moovel carsharing, bus & train",
+      "offer_id": 878577,
+      "teaser": "Herunterladen und STARTEN",
+      "required_actions": "Herunterladen und STARTEN",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=878577&os_version=4.1&ad_format=offer&sig=2e8b4f784f9ec95c5feac2408a279b766bbdfb6b",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 22,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/app_icons/50830/small_mobile_icon.png",
+        "hires": "http://cdn1.sponsorpay.com/app_icons/50830/big_mobile_icon.png"
+      },
+      "store_id": "com.daimler.moovel.android"
+    },
+    {
+      "title": "Swift WiFi:Global WiFi Sharing",
+      "offer_id": 878389,
+      "teaser": "Herunterladen und STARTEN",
+      "required_actions": "Herunterladen und STARTEN",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=878389&os_version=4.1&ad_format=offer&sig=d581f6c5b7a89d71e9f2141522e9532e15d2753a",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 14,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn2.sponsorpay.com/app_icons/47732/small_mobile_icon.png",
+        "hires": "http://cdn2.sponsorpay.com/app_icons/47732/big_mobile_icon.png"
+      },
+      "store_id": "mobi.wifi.toolbox"
+    },
+    {
+      "title": "Gewinnen Ihr Apple Wunschprodukt!",
+      "offer_id": 842287,
+      "teaser": "Registriere dich mit korrekten Daten ",
+      "required_actions": "Registriere dich mit korrekten Daten ",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=842287&os_version=4.1&ad_format=offer&sig=191f9686c24bb656487fa53ae129a6c455e25d94",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 104,
+      "time_to_payout": {
+        "amount": 1200,
+        "readable": "20 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn3.sponsorpay.com/assets/60637/fallback.png_976769.clipular_square_60.png",
+        "hires": "http://cdn3.sponsorpay.com/assets/60637/fallback.png_976769.clipular_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Chilli-Turn PREMIUM",
+      "offer_id": 858061,
+      "teaser": "Melde dich an, erreiche 350 Punkte und bekomme deine Credits",
+      "required_actions": "Melde dich an, erreiche 350 Punkte und bekomme deine Credits",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=858061&os_version=4.1&ad_format=offer&sig=78e4ee204c72efc8ea1664b8c377a15b27df590d",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 15,
+      "time_to_payout": {
+        "amount": 300,
+        "readable": "5 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn3.sponsorpay.com/assets/62263/Screen_Shot_2016-02-21_at_21.46.36_square_60.png",
+        "hires": "http://cdn3.sponsorpay.com/assets/62263/Screen_Shot_2016-02-21_at_21.46.36_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Jewel Galaxy! Jetzt spielen!",
+      "offer_id": 859251,
+      "teaser": "Du musst deine Handynummer angeben und PIN code bestaetigen.",
+      "required_actions": "Du musst deine Handynummer angeben und PIN code bestaetigen.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=859251&os_version=4.1&ad_format=offer&sig=c1cf8f1bc7bd6fad0c1a0ca2caad1bc371b7d398",
+      "offer_types": [
+        {
+          "offer_type_id": 100,
+          "readable": "Handy"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 895,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/assets/62281/Jewel_Galaxy_mobile_square_60.png",
+        "hires": "http://cdn1.sponsorpay.com/assets/62281/Jewel_Galaxy_mobile_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Der interstellare Sound! Download!!",
+      "offer_id": 796491,
+      "teaser": "Du musst deine Handynummer angeben und PIN code bestaetigen.",
+      "required_actions": "Du musst deine Handynummer angeben und PIN code bestaetigen.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=796491&os_version=4.1&ad_format=offer&sig=81b03047b84b02a024c6727efd65552adf7d5920",
+      "offer_types": [
+        {
+          "offer_type_id": 100,
+          "readable": "Handy"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 461,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn3.sponsorpay.com/assets/61015/starphone_square_60.png",
+        "hires": "http://cdn3.sponsorpay.com/assets/61015/starphone_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "LOVOO - Chat and meet people",
+      "offer_id": 877627,
+      "teaser": "Herunterladen und STARTEN",
+      "required_actions": "Herunterladen und STARTEN",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=877627&os_version=4.1&ad_format=offer&sig=6a58247ba2ea7a59dcf7bf8e442f198b5a304cd5",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 111,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 15,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn3.sponsorpay.com/app_icons/873/small_mobile_icon.png",
+        "hires": "http://cdn3.sponsorpay.com/app_icons/873/big_mobile_icon.png"
+      },
+      "store_id": "net.lovoo.android"
+    },
+    {
+      "title": "GEWINNE JETZT ein iPhone 6",
+      "offer_id": 785691,
+      "teaser": "Registriere dich mit korrekten Daten.Nicht @haqed.com oder @goeqa.com emai",
+      "required_actions": "Registriere dich mit korrekten Daten.Nicht @haqed.com oder @goeqa.com emai",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=785691&os_version=4.1&ad_format=offer&sig=933597ef3a8ef6448383c727cc38baa4aff65fb6",
+      "offer_types": [
+        {
+          "offer_type_id": 104,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 108,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 91,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/assets/57233/Your_selection.clipular_square_60.png",
+        "hires": "http://cdn1.sponsorpay.com/assets/57233/Your_selection.clipular_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Gutschein für Fast-Food!",
+      "offer_id": 805071,
+      "teaser": "Nimm mit deinen korrekten Daten am Gewinnspiel teil.",
+      "required_actions": "Nimm mit deinen korrekten Daten am Gewinnspiel teil.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=805071&os_version=4.1&ad_format=offer&sig=2676b959f827fa04585722488ed0a68f495dfeb8",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 141,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/assets/61299/food_square_60.jpg",
+        "hires": "http://cdn1.sponsorpay.com/assets/61299/food_square_175.jpg"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "XTrade - Online CFD Trading",
+      "offer_id": 877473,
+      "teaser": "Herunterladen und STARTEN",
+      "required_actions": "Herunterladen und STARTEN",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=877473&os_version=4.1&ad_format=offer&sig=27e3f25e9e5e311b4a7f3a684dc16d568e22f445",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 5,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn2.sponsorpay.com/app_icons/56363/small_mobile_icon.png",
+        "hires": "http://cdn2.sponsorpay.com/app_icons/56363/big_mobile_icon.png"
+      },
+      "store_id": "com.xfr.xtrade"
+    },
+    {
+      "title": "Candy Catch",
+      "offer_id": 764203,
+      "teaser": "Login, reach 231 points AND stay alive until the end of the chrono ",
+      "required_actions": "Login, reach 231 points AND stay alive until the end of the chrono ",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=764203&os_version=4.1&ad_format=offer&sig=f6b5f90c3d76944d2eb3d56a795094db2adfe82d",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 13,
+      "time_to_payout": {
+        "amount": 0,
+        "readable": "einer Minute"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn4.sponsorpay.com/assets/59963/Screen_Shot_2015-11-26_at_13.45.08_original.png",
+        "hires": "http://cdn4.sponsorpay.com/assets/59963/Screen_Shot_2015-11-26_at_13.45.08_original.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Teile deine Meinung!",
+      "offer_id": 762355,
+      "teaser": "Nehme mit korrekten Daten an der Umfrage teil, um belohnt zu werden.",
+      "required_actions": "Nehme mit korrekten Daten an der Umfrage teil, um belohnt zu werden.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=762355&os_version=4.1&ad_format=offer&sig=5bda00be1a6281337c5c1564c42ec8a781dbab97",
+      "offer_types": [
+        {
+          "offer_type_id": 110,
+          "readable": "Umfragen"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 25,
+      "time_to_payout": {
+        "amount": 900,
+        "readable": "15 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/assets/60359/Speak_Up.clipular_square_60.png",
+        "hires": "http://cdn1.sponsorpay.com/assets/60359/Speak_Up.clipular_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Stickman Wars: The Revenge",
+      "offer_id": 876057,
+      "teaser": "Herunterladen und STARTEN",
+      "required_actions": "Herunterladen und STARTEN",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=876057&os_version=4.1&ad_format=offer&sig=48ecbe2122da92f30c5886ec478c90fb8718bb7f",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 106,
+          "readable": "Spiele"
+        },
+        {
+          "offer_type_id": 109,
+          "readable": "Spiele"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 9,
+      "time_to_payout": {
+        "amount": 300,
+        "readable": "5 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/app_icons/56147/small_mobile_icon.png",
+        "hires": "http://cdn1.sponsorpay.com/app_icons/56147/big_mobile_icon.png"
+      },
+      "store_id": "com.redsushigames.stickmanwars.therevenge"
+    },
+    {
+      "title": "360 Security - Antivirus Boost",
+      "offer_id": 798717,
+      "teaser": "Herunterladen und STARTEN",
+      "required_actions": "Herunterladen und STARTEN",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=798717&os_version=4.1&ad_format=offer&sig=cf645bed1faaea290db85cebc67bd09b55e5a060",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 5,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn2.sponsorpay.com/app_icons/9006/small_mobile_icon.png",
+        "hires": "http://cdn2.sponsorpay.com/app_icons/9006/big_mobile_icon.png"
+      },
+      "store_id": "com.qihoo.security"
+    },
+    {
+      "title": "OxSample",
+      "offer_id": 807101,
+      "teaser": "Submit email and complete a survey with valid information. No purchase nece",
+      "required_actions": "Submit email and complete a survey with valid information. No purchase nece",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=807101&os_version=4.1&ad_format=offer&sig=24e930b887b1e8cfba7ca9b10fa6cd887e9aa061",
+      "offer_types": [
+        {
+          "offer_type_id": 110,
+          "readable": "Umfragen"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 55,
+      "time_to_payout": {
+        "amount": 1200,
+        "readable": "20 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn2.sponsorpay.com/assets/60701/Screen_Shot_2015-12-23_at_12.20.54_PM_square_60.png",
+        "hires": "http://cdn2.sponsorpay.com/assets/60701/Screen_Shot_2015-12-23_at_12.20.54_PM_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Samplicious",
+      "offer_id": 874157,
+      "teaser": "Registriere dich mit korrekten Daten",
+      "required_actions": "Registriere dich mit korrekten Daten",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=874157&os_version=4.1&ad_format=offer&sig=ec2981d2c00eab5337799caef14137486db38b16",
+      "offer_types": [
+        {
+          "offer_type_id": 110,
+          "readable": "Umfragen"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 114,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/assets/9088/samplicio.us_square_60.png",
+        "hires": "http://cdn1.sponsorpay.com/assets/9088/samplicio.us_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Kitty Ball",
+      "offer_id": 785617,
+      "teaser": "Login, get 250 points and stay alive to receive your reward.",
+      "required_actions": "Login, get 250 points and stay alive to receive your reward.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=785617&os_version=4.1&ad_format=offer&sig=37ba8c762b72ecd4e4b67c63b0b93ce0b22580ac",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 20,
+      "time_to_payout": {
+        "amount": 0,
+        "readable": "einer Minute"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn3.sponsorpay.com/assets/60793/Screen_Shot_2015-12-30_at_13.24.56_square_60.png",
+        "hires": "http://cdn3.sponsorpay.com/assets/60793/Screen_Shot_2015-12-30_at_13.24.56_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Umfrage erfolgreich abgeschlossen!",
+      "offer_id": 873699,
+      "teaser": "Umfrage erfolgreich abgeschlossen!",
+      "required_actions": "Umfrage erfolgreich abgeschlossen!",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=873699&os_version=4.1&ad_format=offer&sig=642cb542b2b4c399c09aca91dda828492224d176",
+      "offer_types": [
+        {
+          "offer_type_id": 110,
+          "readable": "Umfragen"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 83,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/assets/28859/Samplicio_square_60.png",
+        "hires": "http://cdn1.sponsorpay.com/assets/28859/Samplicio_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "ElitePartner - dating site",
+      "offer_id": 877213,
+      "teaser": "Herunterladen und STARTEN",
+      "required_actions": "Herunterladen und STARTEN",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=877213&os_version=4.1&ad_format=offer&sig=18c2f2f383d9b2da8742e4eb160355028dd09d1c",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 111,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 14,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn3.sponsorpay.com/app_icons/38169/small_mobile_icon.png",
+        "hires": "http://cdn3.sponsorpay.com/app_icons/38169/big_mobile_icon.png"
+      },
+      "store_id": "de.elitepartner.android"
+    },
+    {
+      "title": "GrabPoints - Free Gift Cards",
+      "offer_id": 868157,
+      "teaser": "Install, open and register with FB, Google or Email",
+      "required_actions": "Install, open and register with FB, Google or Email",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=868157&os_version=4.1&ad_format=offer&sig=7443245acc219e1b0ce3312d5b0babd23f5d597d",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 27,
+      "time_to_payout": {
+        "amount": 5400,
+        "readable": "1 hour"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn4.sponsorpay.com/app_icons/42915/small_mobile_icon.png",
+        "hires": "http://cdn4.sponsorpay.com/app_icons/42915/big_mobile_icon.png"
+      },
+      "store_id": "org.grabpoints.android"
+    },
+    {
+      "title": "HotelScan",
+      "offer_id": 862237,
+      "teaser": "Suchen Sie nach einem Reiseziel und Datum.",
+      "required_actions": "Suchen Sie nach einem Reiseziel und Datum.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=862237&os_version=4.1&ad_format=offer&sig=eedddd6041ea09fb64e5bf21ae4d7f567f07b6f0",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 6,
+      "time_to_payout": {
+        "amount": 300,
+        "readable": "5 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/assets/62379/HotelScan_square_60.png",
+        "hires": "http://cdn1.sponsorpay.com/assets/62379/HotelScan_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Kitty Run",
+      "offer_id": 775875,
+      "teaser": "Login, reach 231 points AND stay alive until the end of the chrono",
+      "required_actions": "Login, reach 231 points AND stay alive until the end of the chrono",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=775875&os_version=4.1&ad_format=offer&sig=5c03d58c70d05d6285554c543e2a1395aac787a1",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 10,
+      "time_to_payout": {
+        "amount": 0,
+        "readable": "einer Minute"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn3.sponsorpay.com/assets/60639/Screen_Shot_2015-12-21_at_12.40.59_original.png",
+        "hires": "http://cdn3.sponsorpay.com/assets/60639/Screen_Shot_2015-12-21_at_12.40.59_original.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Bubble Shot© | lasse Sie platzen!",
+      "offer_id": 866817,
+      "teaser": "Spiele für 5 Minuten um deine credits zu bekommen!",
+      "required_actions": "Spiele für 5 Minuten um deine credits zu bekommen!",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=866817&os_version=4.1&ad_format=offer&sig=a97dd00c9a28d6d7acf1305a066cac886de16016",
+      "offer_types": [
+        {
+          "offer_type_id": 102,
+          "readable": "Proben"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 14,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/assets/54144/bubble_shot_square_60.jpg",
+        "hires": "http://cdn1.sponsorpay.com/assets/54144/bubble_shot_square_175.jpg"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Nielsen Mobile",
+      "offer_id": 776951,
+      "teaser": "Sie müssen Ihre Anwendung zu aktivieren zu verdienen Prämien.",
+      "required_actions": "Sie müssen Ihre Anwendung zu aktivieren zu verdienen Prämien.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=776951&os_version=4.1&ad_format=offer&sig=128bff127effad4d6b60962b43544240f3d1bc13",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 55,
+      "time_to_payout": {
+        "amount": 600,
+        "readable": "10 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn4.sponsorpay.com/assets/3248/Nielsen_square_60.png",
+        "hires": "http://cdn4.sponsorpay.com/assets/3248/Nielsen_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Gewinnspiel Apple Gold",
+      "offer_id": 795507,
+      "teaser": "Registriere dich und bestätige deine E-Mail.",
+      "required_actions": "Registriere dich und bestätige deine E-Mail.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=795507&os_version=4.1&ad_format=offer&sig=a038c113ebe70ab7952fe144f474abb6cc773715",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 89,
+      "time_to_payout": {
+        "amount": 3300,
+        "readable": "1 hour"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn2.sponsorpay.com/assets/61039/WM_IMAGE_17317_square_60.jpg",
+        "hires": "http://cdn2.sponsorpay.com/assets/61039/WM_IMAGE_17317_square_175.jpg"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Ninja - The Final Battle 1.3",
+      "offer_id": 873885,
+      "teaser": "Herunterladen und STARTEN",
+      "required_actions": "Herunterladen und STARTEN",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=873885&os_version=4.1&ad_format=offer&sig=308dc503c559fd7f92bcd3ccdfa6bd8daa2ef8af",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 106,
+          "readable": "Spiele"
+        },
+        {
+          "offer_type_id": 109,
+          "readable": "Spiele"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 7,
+      "time_to_payout": {
+        "amount": 1200,
+        "readable": "20 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn1.sponsorpay.com/app_icons/56343/small_mobile_icon.png",
+        "hires": "http://cdn1.sponsorpay.com/app_icons/56343/big_mobile_icon.png"
+      },
+      "store_id": "org.oasgames.losv"
+    },
+    {
+      "title": "Get a Fresh App of the Day!",
+      "offer_id": 877527,
+      "teaser": "Open Appwall and install any new app",
+      "required_actions": "Open Appwall and install any new app",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=877527&os_version=4.1&ad_format=offer&sig=118b8ea14ca07c553ae2d7135adcaa116e8fb65d",
+      "offer_types": [
+        {
+          "offer_type_id": 101,
+          "readable": "Download"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 30,
+      "time_to_payout": {
+        "amount": 1800,
+        "readable": "30 Minuten"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn4.sponsorpay.com/assets/61757/App_of_the_Day_square_60.png",
+        "hires": "http://cdn4.sponsorpay.com/assets/61757/App_of_the_Day_square_175.png"
+      },
+      "store_id": ""
+    },
+    {
+      "title": "Bomb Launch WWW",
+      "offer_id": 764227,
+      "teaser": "Login and get 250 points to receive your reward.",
+      "required_actions": "Login and get 250 points to receive your reward.",
+      "link": "http://offer.fyber.com/mobile?impression=true&appid=2070&uid=spiderman&client=api&platform=android&appname=VC+Backend+Test&traffic_source=offer_api&country_code=DE&pubid=249&ip=109.235.143.113&ad_id=764227&os_version=4.1&ad_format=offer&sig=22f3f1f792dfab6c3c894522d1864dfec29e2b85",
+      "offer_types": [
+        {
+          "offer_type_id": 105,
+          "readable": "Registrierung"
+        },
+        {
+          "offer_type_id": 112,
+          "readable": "Gratis"
+        }
+      ],
+      "payout": 9,
+      "time_to_payout": {
+        "amount": 0,
+        "readable": "einer Minute"
+      },
+      "thumbnail": {
+        "lowres": "http://cdn4.sponsorpay.com/assets/60329/Screen_Shot_2015-12-09_at_10.31.24_square_60.png",
+        "hires": "http://cdn4.sponsorpay.com/assets/60329/Screen_Shot_2015-12-09_at_10.31.24_square_175.png"
+      },
+      "store_id": ""
+    }
+  ]
+}
