@@ -1,7 +1,6 @@
 package matoski.com.fyberdemooffers;
 
 import android.os.Bundle;
-import android.support.annotation.VisibleForTesting;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -63,6 +62,12 @@ public class ListOffersActivity extends AppCompatActivity {
 
         for (SingleOffer offer : offers.offers) {
             offerItemList.add(OfferItem.from(offer));
+        }
+
+        if ( offerItemList.size() == 0 ) {
+            Snackbar snackbar = Snackbar
+                    .make(rootView, R.string.loading_offers_no, Snackbar.LENGTH_SHORT);
+            snackbar.show();
         }
 
         adapter = new OfferItemAdapter(ListOffersActivity.this, offerItemList);
