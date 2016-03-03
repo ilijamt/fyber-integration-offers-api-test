@@ -9,5 +9,6 @@
     <string name="list_no_offers">No offers</string>
     <string name="loading_offers">Loading offers, please wait ....</string>
     <string name="loading_offers_error">Error loading offers</string>
+    <string name="loading_offers_error_hashkey">Error loading offers, invalid reponse signature</string>
     <string name="loading_offers_no">No offers to show</string>
 </resources>
